@@ -6,6 +6,6 @@ Package/x64
 UMDF/Debug
 UMDF/Release
 UMDF/x64
-Release
-Debug
-x64
+/Release
+/Debug
+/x64
