@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <SignMode>TestSign</SignMode>
+    <TestCertificate>CN=Łukasz Kreft | 72E59CBB1C9D9B29C13489A6E8035A32226857FA</TestCertificate>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <TestCertificate>CN=Łukasz Kreft | 72E59CBB1C9D9B29C13489A6E8035A32226857FA</TestCertificate>
+  </PropertyGroup>
+</Project>

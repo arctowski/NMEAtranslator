@@ -1,0 +1,11 @@
+App/NMEATranslator/bin
+App/NMEATranslator/obj
+Package/Release
+Package/Debug
+Package/x64
+UMDF/Debug
+UMDF/Release
+UMDF/x64
+Release
+Debug
+x64
