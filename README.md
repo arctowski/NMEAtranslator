@@ -20,7 +20,7 @@ Tested USB drivers: usbser.sys, silabser.sys
 
 ## Installing the driver
 
-- Download or build you driver package.
+- [Download](https://github.com/arctowski/NMEAtranslator/releases) or build (see below for instructions) you driver package.
 
 - Connect your NMEA compatible USB device to your PC.
 
@@ -76,7 +76,6 @@ Tested USB drivers: usbser.sys, silabser.sys
 | --- | --- |
 | App | Source code for the NMEA Translator driver companion app. |
 | Package | Source code for driver packaging. |
-| Release | Binaries of the NMEA Translator driver and its companion app |
 | UMDF | Source code for the NMEA Translator UMDF filter driver |
 
 ## Copyright and Licence
