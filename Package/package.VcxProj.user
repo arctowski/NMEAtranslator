@@ -8,4 +8,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TestCertificate>CN=Łukasz Kreft | 72E59CBB1C9D9B29C13489A6E8035A32226857FA</TestCertificate>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <TestCertificate>CN=Łukasz Kreft | 72E59CBB1C9D9B29C13489A6E8035A32226857FA</TestCertificate>
+  </PropertyGroup>
 </Project>

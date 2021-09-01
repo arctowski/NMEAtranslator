@@ -71,8 +71,11 @@ private:
 	// I/O Target to which we forward requests. Represents next device in the
 	// device stack
 	//
-
+#if _WIN64
 	IWDFIoTarget* __unaligned m_FxIoTarget;
+#else
+	IWDFIoTarget* m_FxIoTarget;
+#endif
 
 	//
 	// Weak reference to framework Device object which this object 
